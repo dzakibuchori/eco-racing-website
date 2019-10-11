@@ -1,0 +1,34 @@
+
+@media (max-width: 600px) {
+    h1, .h1 {
+        font-size: 2.3rem !important;
+    }
+
+    .cta {
+        font-size: 1.5rem !important;
+    }
+}
+
+h1, .h1 {
+    color: white !important;
+}
+
+.hl {
+    font-size: larger;
+}
+
+.video-lead {
+    padding-bottom: 1.5rem;
+}
+
+.cta {
+  animation: blink .5s step-end infinite alternate !important;
+  font-size: 3rem;
+}
+
+@keyframes blink { 
+    50% { 
+        border:  yellow 0.1rem solid; 
+        background-color: rgb(2, 43, 2);
+    } 
+ }
